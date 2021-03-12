@@ -1,0 +1,7 @@
+El router es el dispositivo que centrliza la red
+
+ISP es el proveedor de internet
+
+DNS es Domain Name Server, es el nombre de referencia de una página web que es una ip
+
+DHCP es el encargado de brindarnos una ip

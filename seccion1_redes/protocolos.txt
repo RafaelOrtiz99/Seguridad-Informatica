@@ -1,0 +1,7 @@
+Un protocolo es un conjunto de normas para la transmisión de datos entre dispositivos
+
+Un puerto es una dirección fisica o lógica de una computadora
+
+Un servicio es aquel que se configura con la finalidad de brindar mayor seguridad y operación de recursos entre distintas computadoras(DNS, DHCP, FTP).
+
+Para que 2 computadoras se comuniquen, necesitan un protocolo de comunicacion y un puerto, por ejemplo un servicio como FTP por el puerto 21.

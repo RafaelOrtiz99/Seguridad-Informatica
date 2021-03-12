@@ -1,0 +1,11 @@
+Una red es un conjunto de dispositivos conectados, es decir, por lo menos 2 dispositivos.
+
+Una ip permite identificar o reconocer a un dispositivo dentro de la red.
+
+ip privada = 192.168.39.175, se encuentra dentro de una red.
+
+ip pública = 186.84.20.230, permite localizar un dispositivo a través de internet, es decir, con esta ip salimos al mundo exterior.
+
+la ip privada cambia con cada dispositivo de la red, en cambio la ip publica será la misma para todos los dispositivos pertenecientes a una red, porque todos salen  través de un mismo router.
+
+una ip se conforma de 4 octetos, estos van desde 0 hasta 255.
