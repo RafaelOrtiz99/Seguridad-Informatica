@@ -1,0 +1,54 @@
+El modelo TCP/IP tiene 4 capas
+
+Capa 1: Fisica
+
+- Las comunicaciones se realizan a través de señales eléctricas en un circuito de memoria.
+- Se habla de conexiones ethernet, por cable, se encarga de traducir las señales electricas.
+- Gestiona los medios ysistemas fisicos necesarios para el envio y recepcion de la información. La idea de esta capa es permitir
+la conexión fisica a una red.
+
+Funciones:
+- Convertir entre el mundo fisico a lo digital.
+- Se encarga de la   Gestión fisica de la red
+
+
+Capa 2: Enlace de datos
+
+Se encarga de transmitir, sin errores, la información entre 2 dispositivos que esten conectados de forma directa.
+Es aquel que se encarga de establecer, controlar y finalizar la comunicación.
+Controla el volumen de la información para evitar colapsos
+Control de errores y gestión de la información que circula
+evita el flujo quesature al equipo siguiente
+Comunica la capa fisica con la capa de red.
+Se encarga de la inutilización lógica de los puertos sin utilizar, evita las conexiones fraudulentas o atques de envenenamient ARP
+ARP(Man in the middle): el hacker se colocá entre el emisor y el receptor, leyendo la información
+
+Protocolos de seguridad como WPA, WPA2
+
+
+Capa 3: Red
+
+Se encarga de la determinación de la ruta(enrutamiento) y direccionamiento lógico, de esta manera, los dispositivos se pueden conectar aunque no tengan 
+una conexión directa
+
+Funciones:
+- Identificación de equipos en la red
+- enrutamiento del tráfico
+- Control de gestión de red
+
+Protocolos: IP, ISM, IPX, IGMP
+
+Seguridad:
+- Cerrar los puertos automaticamente cuando no se estén utilizando, asi se evita que el atacante los encuentre y empieze un ataque
+- ACL: Lista de control de accesos, Access Control List
+
+
+Capa 4: Transporte
+
+Se encarga de una conexión de extermo a extremo y control de flujo de datos
+
+Capa 5: Sesión
+
+Capa 6: Presentación
+
+Capa 7: Aplicación
