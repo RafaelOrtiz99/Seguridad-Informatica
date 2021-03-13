@@ -1,0 +1,16 @@
+Anillo: es antigua, las computadoras se conectaban entre si sin un intermediario(switch,router,etc.), las ips se configuraban manualmente. Ya no se usa casi.
+Si había un problema en alguna conexion afectaba gran parte de la red.
+
+Bus: Se centraliza la comunicación en una sola linea
+
+Estrella: Varias computadoras conectadas a un servidor, si se desconecta o deja de funcionar una, no entorpece el funcionamiento del resto.
+Esta es la topologia de las conexiones hogareñas.
+
+TIPOS DE RED
+LAN: Local Area Network, las redes que se encuentran en casas
+
+MAN: Metropolitan Area Network, se usa a nivel corporativo, se tienen varias LAN y todo se centraliza en um mismo servidor
+
+WAN: Wide Area Network, se comparte la misma red sin estar en la misma ubicación fisica.
+
+
