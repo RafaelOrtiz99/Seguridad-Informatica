@@ -1,0 +1,26 @@
+nmap -sP -n 192.168.0.0/24
+nmap -p- -sV 192.168.0.154 = escaneo muy invasivo, cuidado!
+
+-p = escanear todos los puertos
+-sV = version de los servicios encontrados
+-v = versiones
+-O = sistema operativo
+-A = traceroute de la ip
+-sA = deteccion de firewalls
+-sP = enviar paquete a las ip y los muestra(les hage ping y si recibe respuesta, los muestra)
+-F = busca los puertos mas usados, forma de no hacer mucho ruido al hacer un escaneo(menor probabilidad de deteccion)
+-r = de un orden creciente de los resultados
+-p 22 = maquinas con puerto 22 abierto
+-sS = escaneo exhaustivo
+
+comandos
+
+nmap 192.168.0.155 = escaneo basico de un host
+nmap 192.168.0.* = escanea toda la red
+nmap 192.168.0.* --exlude 192.168.0.155 = excluir una ip
+nmap -iL archivo.txt = leer archivo con ips
+identifica octetos
+nmap  192.168.0.20-30 = escanea del 20 al 30
+nmap -v
+nmapp -O -n -v -sS -p 1-65535 192.168.0.39 = escaneo exhaustivo y muy demorado
+nmap 192.168.0.155 > resultado.txt = exporta a un archivo txt el resultado
